@@ -16,3 +16,11 @@ docker network ls
 ingresa al link http://localhost:8081
 - usuario: admin
 - contraseña: pass
+
+### SQLServer
+Ejecuta el siguiente comando en el terminal `docker compose up -d`
+- Ejecuta los siguiente para opetener la ip `docker inspect <CONTAINER ID>`
+- Ingresa a DBeaver e ingresa 
+  - usuario: sa
+  - contraseña: My_secret_p@ssword
+  - puerto: 1234
