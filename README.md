@@ -19,11 +19,12 @@ http://localhost:5050/browser/
     contraseña: root
 
 
-Procede a ingresar el comando de docker inspect <CONTAINER ID>. Aparecerá la IP donde se está ejecutando el contenedor, este es un dato importante al ingresar el servidor a través de pgadmin.
+Procede a ingresar el comando de `docker inspect <CONTAINER ID>`. 
+Aparecerá la IP donde se está ejecutando el contenedor, este es un dato importante al ingresar el servidor a través de pgadmin.
 
 MONGO
 
-Ejecuta el comando docker compose up -d. Verifica la red con docker network ls e ingresa al link http://localhost:8081.
+Ejecuta el comando `docker compose up -d`. Verifica la red con `docker network ls` e ingresa al link `http://localhost:8081.`
 
     usuario: admin
     contraseña: pass
@@ -31,7 +32,7 @@ Ejecuta el comando docker compose up -d. Verifica la red con docker network ls e
 
 SQLServer
 
-Ejecuta el siguiente comando en el terminal docker compose up -d.
+Ejecuta el siguiente comando en el terminal `docker compose up -d.`
 
 Ejecuta los siguientes pasos para obtener la IP:
 
