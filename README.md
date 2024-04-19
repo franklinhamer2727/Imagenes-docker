@@ -3,13 +3,15 @@
 
 Este documento proporciona información sobre cómo ejecutar diferentes contenedores Docker, incluyendo PostgreSQL, MongoDB y SQL Server. Se detallan los comandos necesarios para levantar los servicios, así como los accesos y credenciales para interactuar con las bases de datos a través de herramientas como pgAdmin, Mongo Express y DBeaver.
 
-
 ## Indice
 
     Comandos para ejecutar Docker-Compose
     POSTGRES
     MONGO
     SQLServer
+
+![imagen](https://github.com/franklinhamer2727/Imagenes-docker/assets/79879867/8d439ed0-9436-4f79-b94b-125454052c07)
+
 ## Comandos para ejecutar Docker-Compose
 POSTGRES
 
